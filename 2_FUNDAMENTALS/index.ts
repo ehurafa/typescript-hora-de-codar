@@ -37,3 +37,10 @@ console.log(typeof a)
 
 a = true 
 console.log(a)
+
+// 4 - inference and annotation
+const ann: string = "Teste"
+
+let inf = "Teste"
+
+// inf = 1
