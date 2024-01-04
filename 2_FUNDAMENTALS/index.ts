@@ -41,6 +41,8 @@ console.log(a)
 // 4 - inference and annotation
 const ann: string = "Teste"
 
+console.log('testando 2')
+
 let inf = "Teste"
 
 // inf = 1
