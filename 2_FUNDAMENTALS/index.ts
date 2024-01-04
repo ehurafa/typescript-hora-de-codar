@@ -14,3 +14,18 @@ console.log(typeof y)
 console.log(y)
 
 console.log(y.toExponential(3))
+
+// 2 string
+const firstName: string = "Rafael"
+
+console.log(firstName.toUpperCase())
+
+let fullName: string 
+
+const lastName: string = "Santos"
+
+fullName = firstName + " " + lastName
+
+console.log(fullName)
+
+console.log(typeof fullName)
