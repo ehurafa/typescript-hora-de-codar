@@ -46,3 +46,12 @@ console.log('testando 2')
 let inf = "Teste"
 
 // inf = 1
+
+// challenge
+let num = 2
+
+const inst = String(num)
+
+console.log(`O valor retornado é: ${inst}`)
+
+
