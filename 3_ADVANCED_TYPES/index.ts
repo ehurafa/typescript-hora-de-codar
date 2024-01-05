@@ -10,3 +10,10 @@ const names: string[] = ["Rafael", "William"]
 names.push('Enzo')
 
 console.log(names)
+
+// 2 - array other syntax
+const nums: Array<number> = [100, 200, 300]
+
+nums.push(400)
+
+console.log(nums)

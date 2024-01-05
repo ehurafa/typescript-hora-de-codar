@@ -6,3 +6,7 @@ console.log(numbers[2]);
 const names = ["Rafael", "William"];
 names.push('Enzo');
 console.log(names);
+// 2 - array other syntax
+const nums = [100, 200, 300];
+nums.push(400);
+console.log(nums);
