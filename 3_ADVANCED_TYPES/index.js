@@ -10,8 +10,13 @@ console.log(names);
 const nums = [100, 200, 300];
 nums.push(400);
 console.log(nums);
-// any
+// 3 - any
 const arr1 = [1, "test", true, [], { name: "Rafael" }];
 console.log(arr1);
 arr1.push([1, 2, 3]);
 console.log(arr1);
+// 4 - typed parameters
+function sum(a, b) {
+    console.log(a + b);
+}
+sum(4, 5);
