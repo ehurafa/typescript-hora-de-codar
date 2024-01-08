@@ -31,3 +31,11 @@ function sum(a: number, b: number) {
 }
 
 sum(4, 5)
+
+// 5 - Function return 
+function greeting(name: string): string {
+    return `Olá ${ name }`
+}
+
+console.log(greeting('Rafael'))
+// console.log(greeting(123))

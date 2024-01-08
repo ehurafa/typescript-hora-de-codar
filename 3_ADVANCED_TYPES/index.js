@@ -20,3 +20,9 @@ function sum(a, b) {
     console.log(a + b);
 }
 sum(4, 5);
+// 5 - Function return 
+function greeting(name) {
+    return `Olá ${name}`;
+}
+console.log(greeting('Rafael'));
+// console.log(greeting(123))
