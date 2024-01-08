@@ -50,3 +50,16 @@ setTimeout(function() {
     console.log(sallary)
 
 }, 2000)
+
+// 7 - Object types 
+
+function passCordinates(coord: { x: number, y: number }) {
+    console.log("X cordinates: " + coord.x)
+    console.log("Y cordinates: " + coord.y)
+}
+
+const objCoord = { x: 329, y: 84.2 }
+
+passCordinates(objCoord)
+
+// passCordinates(329, 84.2)
