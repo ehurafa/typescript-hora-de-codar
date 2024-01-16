@@ -59,3 +59,10 @@ function advancedGreeting(firstName, lastName) {
 }
 console.log(advancedGreeting("Rafael", "Gomes"));
 console.log(advancedGreeting("Erik"));
+// 10 union type
+function showBalance(balance) {
+    console.log(`O saldo da conta é R$ ${balance}`);
+}
+showBalance('100');
+showBalance(200);
+// showBalance(true)
