@@ -179,3 +179,9 @@ showDirection('left')
 const p = document.getElementById("some-p");
 
 console.log(p!.innerText);
+
+// 17 - bigint
+let n: bigint 
+n = 1000n
+
+console.log(typeof n)
